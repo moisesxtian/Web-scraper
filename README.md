@@ -1,6 +1,6 @@
 # Bing Image Downloader
 
-This project allows users to efficiently download images from Bing using specific search queries while avoiding duplicate images. The script ensures a clean dataset by filtering out duplicate images based on their hash values.
+This project allows users to efficiently download images from Bing using specific search queries while avoiding duplicate images. The script ensures a clean dataset by filtering out duplicate images based on their hash values. Perfect for collecting Dataset
 
 ## Features
 - Downloads images from Bing based on predefined search queries.
@@ -20,7 +20,7 @@ pip install bing-image-downloader pillow
 
 ### 1. Clone the Repository
 ```sh
-git clone <repository-url>
+git clone https://github.com/moisesxtian/Web-scraper.git
 cd <repository-folder>
 ```
 
@@ -43,17 +43,6 @@ python download_images.py
 6. **Filter Unique Images**: The script checks the hash of each image and moves unique ones to the dataset folder.
 7. **Cleanup**: Any temporary files and duplicate images are removed at the end.
 
-## File Structure
-```
-.
-├── datasets/
-│   ├── Chery/  # Stores unique images
-├── temp_bing_downloads/  # Temporary storage during download
-├── download_images.py  # The main script
-├── requirements.txt  # Required dependencies
-└── README.md  # Documentation
-```
-
 ## Customization
 - Modify the `search_queries` list to download images of different objects.
 - Adjust `total_images` to change the dataset size.
@@ -68,5 +57,5 @@ python download_images.py
 This project is open-source and free to use under the MIT License.
 
 ---
-For any issues or contributions, feel free to open a pull request or contact the repository owner.
+For any issues or contributions, feel free to open a pull request or contact me: christiansmoises023@gmail.com
 
